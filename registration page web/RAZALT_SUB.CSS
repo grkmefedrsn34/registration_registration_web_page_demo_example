@@ -1,0 +1,101 @@
+body{
+    background: linear-gradient(to top right, #f8036d, #04adab , #662271); 
+    height: 671px;
+    width: 560px;
+    background-repeat:no-repeat;
+
+}
+.public_container{
+    width: 985px;
+    height: 485px;
+    border-radius: 25px;
+    border-image-slice: 1;
+    background: linear-gradient(to top, #682071, #04aeac , #440164);
+    margin-left: 175px;
+    margin-top: 85px;
+    position: fixed;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius:35px;
+    
+}
+
+#çark{
+    width: 40px;
+    margin: auto;
+    padding:15px;
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+#adam{
+    width: 440px;
+    left: 25px;
+}
+
+
+
+#kabul{
+    background-image: linear-gradient(to right, #06c16f, #0cd337);
+    height: 39px;
+    width: 246px;
+    border-radius: 25px;
+    color: #ffffff;
+    border-image-slice: 1;
+    margin-top: 45px;
+  
+}
+
+#şifree{
+    background-image: linear-gradient(to right, #03e1af, #4f4d9a);
+    height: 30px;
+    width: 233px;
+    border-radius: 25px;
+    color: #ffffff;
+    border-image-slice: 1;
+    margin-top: 45px;
+}
+
+#mailee{
+    background-image: linear-gradient(to right, #03e1af, #4f4d9a);
+    height: 30px;
+    width: 233px;
+    border-radius: 25px;
+    color: #ffffff;
+    border:solid 2px rgba(185, 184, 184, 0.856);
+    /*border-image: linear-gradient(to right, #000, #ffffff);*/
+    border-image-slice: 1;
+   
+}
+
+#logo{
+    position: absolute;
+    top: -30px; /* Yükseklik değerini istediğiniz gibi ayarlayın */
+    right:-356px; /* Sol kenar boşluğunu istediğiniz gibi ayarlayın */
+    width: 55%;
+    /*box-shadow: [offset-x] [offset-y] [blur-radius] [spread-radius] [color]*/
+    
+}
+
+.id{
+    position: relative;
+    width: 500px; /* İsteğe bağlı olarak ayarlayabilirsiniz */
+    height: 300px; /* İsteğe bağlı olarak ayarlayabilirsiniz */
+}
+
+
+
+.form{
+    width: 700px;
+    height: 150px;
+    right:-607px;
+    bottom: 195px;
+    position: relative;
+
+}
+
+#çark:hover{
+    transform: rotate(240deg); /* Dönme açısını istediğiniz gibi ayarlayabilirsiniz */
+    filter: hue-rotate(590deg); /* Renk değişimi için istediğiniz dereceyi kullanabilirsini*/
+}
+
+
